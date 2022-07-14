@@ -28,7 +28,7 @@ Route::get('/users/create', [App\Http\Controllers\UserController::class, 'create
 Route::post('/users/store', [App\Http\Controllers\UserController::class, 'store'])->name('user.store');
 Route::get('/users/{id}/comments', [App\Http\Controllers\UserController::class, 'show'])->name('user.show');
 Route::get('/users/{id}', [App\Http\Controllers\UserController::class, 'detail'])->name('user.detail');
-
+Route::get('/search', 'SearchController@search')->name('web.search');
 
 // POSTS
 Route::get('/posts/{id}/shows', [App\Http\Controllers\PostController::class, 'show'])->name('post.show');

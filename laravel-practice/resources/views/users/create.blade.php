@@ -12,7 +12,7 @@
                 <div class="row">
                     <div class="mb-3">
                         <label for="name" class="form-label">Name</label>
-                        <input type="text" class="form-control" name="name" id="name" placeholder="DNK">
+                        <input type="text" class="form-control" name="name" id="name" placeholder="Your Name">
                     </div>
                     <div class="mb-3">
                         <label for="email" class="form-label">Email</label>
